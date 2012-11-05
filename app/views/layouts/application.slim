@@ -1,0 +1,12 @@
+doctype html
+html lang="en"
+  head
+    title Screeny Filepicker Demo
+    == stylesheet_link_tag :application
+    == javascript_include_tag_jquery
+    == filepicker_js_include_tag
+    javascript:
+      filepicker.setKey('#{ENV["FILEPICKER_API_KEY"]}')
+    == javascript_include_tag :application
+  body
+    == yield

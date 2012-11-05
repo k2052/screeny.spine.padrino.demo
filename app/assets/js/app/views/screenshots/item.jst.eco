@@ -1,0 +1,4 @@
+<li class="item" id="screenshot_<%= @id %>" data-position="screenshot.position" data-id="<%= @id %>"> 
+  <h2 class="name"><%= @name %></h2>
+  <img src="<%= @image %>" width="150" height="200"/>
+</li>

@@ -13,3 +13,8 @@ You need to set `ENV['FILEPICKER_API_KEY'] = 'XXXX'` with your API key and then 
 3. `$ bundle exec padrino start`
 
 Have fun!
+
+## Support
+
+If you found this repo useful please consider supporting me on [Gittip](https://www.gittip.com/k2052) or sending me some
+bitcoin `1csGsaDCFLRPPqugYjX93PEzaStuqXVMu`
